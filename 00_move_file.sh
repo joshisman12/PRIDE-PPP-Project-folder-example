@@ -1,5 +1,7 @@
-#year="2020"
-for k in $(seq -w 2007 2022); do
+Start_year=2022
+End_year=2022
+
+for k in $(seq -w ${Start_year} ${End_year}); do
     year=${k}
     file_path="./o_file/GDMSdata/"
     target_path="./data/"
