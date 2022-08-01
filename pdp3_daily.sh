@@ -2,7 +2,7 @@
 
 year="2022"
 s_jd="001"
-e_jd="005"
+e_jd="001"
 #for i in $(seq -w ${s_jd} ${e_jd}); do
 #    for k in ./data/${year}/${i}/????"${i}"?.${year:2:2}?; do
 #        gpsweek=$(python 00_gnsscal.py ${year} ${i} | cut -b 1-4);  #input year, doy and output gpsweek and gpsdays
